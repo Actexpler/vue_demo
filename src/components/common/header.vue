@@ -1,9 +1,17 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: wangzongcheng
+ * @Date: 2019-10-16 16:14:35
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2020-09-28 12:05:45
+-->
 <template>
    <div style="margin-top: -60px">
       <Menu mode="horizontal" :theme="theme1" active-name="1">
         <MenuItem name="1" to="/index">
             <Icon type="ios-paper"/>
-            内容管理
+           {{$t("header.infoManage")}}
         </MenuItem>
         <MenuItem name="2" to="/userCenter">
             <Icon type="ios-people" />
