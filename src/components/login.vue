@@ -1,9 +1,17 @@
+<!--
+ * @Descripttion: 
+ * @version: 
+ * @Author: wangzongcheng
+ * @Date: 2019-10-16 16:14:35
+ * @LastEditors: 
+ * @LastEditTime: 2020-10-10 16:21:52
+-->
 <template>
      <div >
         <div style="margin:0 auto;background-color:#dcdee2;width:400px;height:360px">
             <div class="login-title">用户登录</div>
             <div>
-                账号 ：
+                用户名 ：
                 <Input v-model="account" placeholder="账号..." style="width: 250px" />
                 <!-- input 中数据绑定用 v-model -->
                 <!-- <input v-model="account" class="input account" type="text" placeholder="账号"> -->
