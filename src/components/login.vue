@@ -4,12 +4,12 @@
  * @Author: wangzongcheng
  * @Date: 2019-10-16 16:14:35
  * @LastEditors: Please set LastEditors
- * @LastEditTime: 2020-10-10 22:20:39
+ * @LastEditTime: 2020-10-10 22:24:46
 -->
 <template>
      <div >
         <div style="margin:0 auto;background-color:#dcdee2;width:400px;height:360px">
-            <div class="login-title">用户登录333</div>
+            <div class="login-title">用户登录</div>
             <div>
                 用户名 ：
                 <Input v-model="account" placeholder="账号..." style="width: 250px" />
